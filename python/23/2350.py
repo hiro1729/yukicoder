@@ -1,0 +1,1 @@
+print(["winter", "winter", "spring", "spring", "spring", "summer", "summer", "summer", "fall", "fall", "fall", "winter"][int(input()) - 1])
