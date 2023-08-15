@@ -1,0 +1,1 @@
+print(''.join(chr((ord(j) - ord('A') - i - 1) % 26 + ord('A')) for i, j in enumerate(input())))
