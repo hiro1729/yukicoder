@@ -1,6 +1,5 @@
 n = int(input())
 ok = [True] * 10
-yes = set(list(range(10)))
 for _ in range(n):
 	a, b, c, d, s = input().split()
 	a, b, c, d = map(int, [a, b, c, d])
@@ -10,7 +9,9 @@ for _ in range(n):
 		ok[c] = False
 		ok[d] = False
 	else:
-		yes &= set([a, b, c, d])
+		for i in range(10):
+			if i not in [a, b, c, d]:
+				ok[i] = False
 for i in range(10):
-	if ok[i] and i in yes:
+	if ok[i]:
 		print(i)
