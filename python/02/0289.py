@@ -1,1 +1,0 @@
-print(sum(int(i) for i in input() if i in "123456789"))
