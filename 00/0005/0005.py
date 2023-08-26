@@ -6,8 +6,7 @@ ans = 0
 s = 0
 for i in range(n):
 	s += w[i]
-	if s <= l:
-		ans += 1
-		continue
-	break
+	if s > l:
+		break
+	ans += 1
 print(ans)
