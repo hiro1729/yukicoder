@@ -1,6 +1,6 @@
 ## 考察
 
-求めたいのは $\lceil \frac{B}{A} \rceil$ である。これは $\lfloor \frac{A+B-1}{A} \rfoor$ と書けるので、これを計算して出力すればいい。
+求めたいのは $\lceil \frac{B}{A} \rceil$ である。これは $\lfloor \frac{A+B-1}{A} \rfloor$ と書けるので、これを計算して出力すればいい。
 
 ## コード
 
