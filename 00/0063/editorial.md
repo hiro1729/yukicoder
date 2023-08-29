@@ -1,7 +1,7 @@
 ## 考察
 
 $C$ 回食べるとすると、 $C$ は $C \times (2 \times K) < L$ を満たす最大の $C$ である。
-よって、求める答えは $\lfloor {L - 1}{2 \times K} \rfloor \times K$ である。
+よって、求める答えは $\lfloor \frac{L - 1}{2 \times K} \rfloor \times K$ である。
 
 ## コード
 
